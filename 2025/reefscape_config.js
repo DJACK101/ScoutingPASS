@@ -120,31 +120,8 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
-    { "name": "Pickup From",
-      "code": "tpu",
-      "type": "radio",
-      "choices": {
-        "s": "Coral Station<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Scored in Opponent Processor",
-      "code": "opp",
-      "type": "bool"
-    },
-    { "name": "Hit Chain",
-      "code": "THC",
-      "type": "bool"
-    }
   ],
   "endgame": [
-    { "name": "Barge Timer",
-      "code": "ebt",
-      "type": "timer"
-    },
     { "name": "Final Robot Status",
       "code": "efs",
       "type":"radio",
@@ -157,11 +134,26 @@ var config_data = `
       },
       "defaultValue": "x"
     }
+    { "name": "Hit Chain",
+      "code": "THC",
+      "type": "bool"
+    }
   ],
   "postmatch": [
     { "name": "Attained Coopertition Pt",
       "code": "cop",
       "type": "bool"
+    },
+    { "name": "Pickup From",
+      "code": "tpu",
+      "type": "radio",
+      "choices": {
+        "s": "Coral Station<br>",
+        "f": "Floor<br>",
+        "b": "Both<br>",
+        "x": "Not Attempted"
+      },
+      "defaultValue": "x"
     },
     { "name": "Algae Left in Reef",
       "code": "alr",
