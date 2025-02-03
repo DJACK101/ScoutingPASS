@@ -244,7 +244,7 @@ var config_data = `
             "choices": {
                 "1": "1 (highest) <br>",
                 "2": "2<br>",
-                "3": "3 (lowest) <br>",
+                "3": "3 (lowest) <br>"
             },
             "defaultValue": "3"
         },
