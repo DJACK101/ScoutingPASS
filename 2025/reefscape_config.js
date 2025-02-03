@@ -237,6 +237,7 @@ var config_data = `
             "code": "da",
             "type": "bool"
         },
+<<<<<<< HEAD
         {
             "name": "Citrus Ranking",
             "code": "cr",
@@ -247,7 +248,19 @@ var config_data = `
                 "3": "3 (lowest)"
             },
             "defaultValue": "3"
+=======
+    {
+        "name": "Citrus Rank",
+        "code": "cr",
+        "type": "radio",
+        "choices": {
+            "1": "1 (highest)",
+            "2": "2",
+            "3": "3 (lowest)"
+>>>>>>> parent of 203a0ca (Update reefscape_config.js)
         },
+        "defaultValue": "1"
+    },
         {
             "name": "Comments",
             "code": "co",
