@@ -238,6 +238,7 @@ var config_data = `
             "type": "bool"
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         {
             "name": "Citrus Ranking",
             "code": "cr",
@@ -249,6 +250,8 @@ var config_data = `
             },
             "defaultValue": "3"
 =======
+=======
+>>>>>>> parent of 203a0ca (Update reefscape_config.js)
     {
         "name": "Citrus Rank",
         "code": "cr",
@@ -257,6 +260,9 @@ var config_data = `
             "1": "1 (highest)",
             "2": "2",
             "3": "3 (lowest)"
+<<<<<<< HEAD
+>>>>>>> parent of 203a0ca (Update reefscape_config.js)
+=======
 >>>>>>> parent of 203a0ca (Update reefscape_config.js)
         },
         "defaultValue": "1"
