@@ -237,17 +237,17 @@ var config_data = `
             "code": "da",
             "type": "bool"
         },
-    {
-        "name": "Citrus Rank",
-        "code": "cr",
-        "type": "radio",
-        "choices": {
-            "1": "1 (highest)",
-            "2": "2",
-            "3": "3 (lowest)"
+        {
+            "name": "Citrus Ranking",
+            "code": "cr",
+            "type": "radio",
+            "choices": {
+                "1": "1 (highest) <br>",
+                "2": "2<br>",
+                "3": "3 (lowest) <br>",
+            },
+            "defaultValue": "3"
         },
-        "defaultValue": "1"
-    },
         {
             "name": "Comments",
             "code": "co",
