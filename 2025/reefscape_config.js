@@ -239,14 +239,14 @@ var config_data = `
         },
     {
         "name": "Citrus Rank",
-        "code": "citrus_rank",
-        "type": "multi_select",
+        "code": "cr",
+        "type": "radio",
         "choices": {
-            "1": "1 (lowest)",
+            "1": "1 (highest)",
             "2": "2",
-            "3": "3 (highest)"
+            "3": "3 (lowest)"
         },
-        "defaultValue": "x"
+        "defaultValue": "1"
     },
         {
             "name": "Comments",
