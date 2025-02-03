@@ -237,6 +237,17 @@ var config_data = `
             "code": "da",
             "type": "bool"
         },
+            {
+        "name": "Citrus Rank",
+        "code": "cr",
+        "type": "radio",
+        "choices": {
+            "1": "1 (best) <br>",
+            "2": "2 <br>",
+            "3": "3 (worst)"
+        },
+        "defaultValue": "2"
+    },
         {
             "name": "Comments",
             "code": "co",
