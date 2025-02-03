@@ -180,14 +180,6 @@ var config_data = `
             "defaultValue": "x"
         },
         {
-            "name": "Algae Left in Reef",
-            "code": "alr",
-            "type": "number",
-            "min": 0,
-            "max": 9,
-            "defaultValue": 0
-        },
-        {
             "name": "Driver Skill",
             "code": "ds",
             "type": "radio",
