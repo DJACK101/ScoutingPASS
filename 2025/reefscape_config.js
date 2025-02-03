@@ -237,12 +237,17 @@ var config_data = `
             "code": "da",
             "type": "bool"
         },
-        {
-            "name": "Make good<br>alliance partner?",
-            "tooltip": "Would you want this robot on your alliance in eliminations?",
-            "code": "all",
-            "type": "bool"
+    {
+        "name": "Citrus Rank",
+        "code": "citrus_rank",
+        "type": "multi_select",
+        "choices": {
+            "1": "1 (lowest)",
+            "2": "2",
+            "3": "3 (highest)"
         },
+        "defaultValue": "x"
+    },
         {
             "name": "Comments",
             "code": "co",
